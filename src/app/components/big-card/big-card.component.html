@@ -1,17 +1,16 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="/assets/00006-649616693.png" alt="" height="250px" />
+    <img src="{{ photoCover }}" alt="" height="250px" />
   </div>
 
-  <div class="big-card__tittle">
-    <h1><a href="">Saiu a nova versão do Angular</a></h1>
+  <div class="big-card__title">
+    <h1>
+      <a href="">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__description">
     <p>
-      <a href="">
-        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-        bla bla bla bla bla bla bla</a
-      >
+      <a href=""> {{ cardDescription }}</a>
     </p>
   </div>
 </div>
